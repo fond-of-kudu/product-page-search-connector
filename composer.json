@@ -1,0 +1,43 @@
+{
+  "name": "fond-of-kudu/product-page-search-connector",
+  "description": "Spryker catalog search connector, contains various plugins for extending and searching within Elasticsearch.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pascal Fischer",
+      "email": "p-fischer@gmx.net"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "spryker/availability": "^9.0.0",
+    "spryker/catalog": "^5.2.0",
+    "spryker/product-page-search-extension": "^1.2.0",
+    "spryker/search-extension": "^1.3.0",
+    "spryker/store": "^1.11.0"
+  },
+  "require-dev": {
+    "fond-of-codeception/spryker": "*",
+    "spryker/code-sniffer": "*",
+    "spryker-sdk/phpstan-spryker": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "FondOfKudu\\": "src/FondOfKudu/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FondOfKudu\\": "tests/FondOfKudu/",
+      "Generated\\": "src/Generated/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

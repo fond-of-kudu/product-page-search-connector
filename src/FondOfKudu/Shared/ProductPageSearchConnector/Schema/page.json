@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "page": {
+      "properties": {
+        "available": {
+          "type": "integer"
+        },
+        "search-result-data": {
+          "properties": {
+            "available": {
+              "type": "integer"
+            },
+            "attributes": {
+              "properties": {
+                "available": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
